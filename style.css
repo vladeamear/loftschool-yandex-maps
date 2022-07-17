@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+.map {
+  background-color: rgb(213,241,191);
+  width: 100vw;
+  height: 100vh;
+}
+
+.rb-default-text {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.rb-black-text {
+  color: #000000;
+}
+
+.rb-gray-text {
+  color: #8F8F8F;
+}
+
+.rb-place-date {
+  margin-left: 8px;
+}
+
+.review-baloon__wrapper {
+  max-width: 315px;
+  width: 100%;
+  padding-left: 5px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  box-sizing: border-box;
+}
+
+.review-baloon__reviews {
+  height: 120px;
+  overflow: auto;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.review-baloon__review {
+  margin-bottom: 20px;
+}
+
+.review-baloon__review--p {
+  margin: 0;
+}
+.review-baloon__review--p:last-child {
+  margin-top: 4px;
+}
+
+.review-baloon__form--input,
+.review-baloon__form--textarea {
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 3px;
+  padding: 11px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.review-baloon__form--input,
+.review-baloon__form--textarea,
+.review-baloon__form--input::placeholder,
+.review-baloon__form--textarea::placeholder {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.review-baloon__form--input::placeholder,
+.review-baloon__form--textarea::placeholder {
+  color: #8F8F8F;
+}
+
+.review-baloon__form--input:focus-visible,
+.review-baloon__form--textarea:focus-visible {
+  border-color: #1371C8;
+  outline: none;
+}
+
+.review-baloon__form--textarea {
+  resize: none;
+  height: 5em;
+}
+
+.review-baloon__form--title {
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 14px;
+}
+
+.review-baloon__form--submit {
+  background-color: #FF8663;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 16px 10px 16px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
